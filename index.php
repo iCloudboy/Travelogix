@@ -48,12 +48,8 @@
                         <td>£<?php echo $calculate->averageFlightFare()?></td>
                     </tr>
                     <tr>
-                        <td><b>Spending per flight operator</b></td>
-                        <td>£200</td>
-                    </tr>
-                    <tr>
-                        <td><b>Average flight fare cost</b></td>
-                        <td>£200</td>
+                        <td><b>Top Spending Account Codes</b></td>
+                        <td><tr><td><b>Account ID</b></td><td><b>Total Spending</b></td></tr><?php echo $calculate->topSpendingAccountCodes()?></td>
                     </tr>
                 </tbody>
             </table>

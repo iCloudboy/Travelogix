@@ -45,6 +45,21 @@ Class Calculate
 
     public function topSpendingAccountCodes()
     {
-        
+        $db = DBConn::getConnection(); // connect to db
+        //select the account id and the sum of the invoice values from that account ID. Then order the list to show the 3 biggest spenders.
+        $sql = "SELECT acct_id, sum(`inv_val`) AS sinv FROM head a
+                INNER JOIN invoices b
+                ON a.pax_id = b.pax_id AND a.booking_id = b.booking_id
+                GROUP BY acct_id
+                ORDER BY sum(`inv_val`) DESC
+                LIMIT 3";
+
+
+
+        $result = $db->query($sql);
+
+        while($row = $result->fetch(PDO::FETCH_ASSOC)){
+            echo "<tr><td>" . $row['acct_id'] . "</td><td>£" . number_format((float)$row['sinv'],2,".","") . "</td></tr>";
+        }
     }
 }
