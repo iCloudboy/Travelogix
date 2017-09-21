@@ -20,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="105" selection-start-line="2" selection-start-column="105" selection-end-line="2" selection-end-column="105" />
+            <state relative-caret-position="264">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -33,8 +33,8 @@
       <file leaf-file-name="class_parse.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class_parse.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4872">
-              <caret line="203" column="43" selection-start-line="203" selection-start-column="43" selection-end-line="203" selection-end-column="43" />
+            <state relative-caret-position="288">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
                 <marker date="1505997354000" expanded="true" signature="4015:4600" ph="INSERT INTO air... " />
                 <marker date="1505997354000" expanded="true" signature="4015:4637" ph="INSERT INTO air... " />
@@ -59,14 +59,14 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
+            <state relative-caret-position="296">
+              <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class_calculate.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="class_calculate.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class_calculate.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
@@ -86,8 +86,8 @@
       <file leaf-file-name="parse.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parse.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="40" />
+            <state relative-caret-position="192">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -271,12 +271,12 @@
       <option name="presentableId" value="Default" />
       <updated>1505829035260</updated>
       <workItem from="1505829036538" duration="10760000" />
-      <workItem from="1505844209753" duration="26670000" />
+      <workItem from="1505844209753" duration="26741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37430000" />
+    <option name="totallyTimeSpent" value="37501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
@@ -397,10 +397,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/class_calculate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="48" column="139" selection-start-line="48" selection-start-column="139" selection-end-line="48" selection-end-column="139" />
+          <folding>
+            <marker date="1505999636000" expanded="true" signature="229:301" ph="SELECT AVG(a... air" />
+            <marker date="1505999636000" expanded="true" signature="780:815" ph="SELECT ar_ma... air" />
+            <marker date="1505999636000" expanded="true" signature="780:860" ph="SELECT ar_ma... air" />
+            <marker date="1505999636000" expanded="true" signature="780:975" ph="SELECT ar_ma... air" />
+            <marker date="1505999636000" expanded="true" signature="780:976" ph="SELECT ar_ma... air" />
+            <marker date="1505999636000" expanded="true" signature="1452:1713" ph="SELECT acct_... head" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/class_parse.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4872">
-          <caret line="203" column="43" selection-start-line="203" selection-start-column="43" selection-end-line="203" selection-end-column="43" />
+        <state relative-caret-position="288">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <marker date="1505997354000" expanded="true" signature="4015:4600" ph="INSERT INTO air... " />
             <marker date="1505997354000" expanded="true" signature="4015:4637" ph="INSERT INTO air... " />
@@ -423,40 +454,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="105" selection-start-line="2" selection-start-column="105" selection-end-line="2" selection-end-column="105" />
+        <state relative-caret-position="264">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class_calculate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="48" column="139" selection-start-line="48" selection-start-column="139" selection-end-line="48" selection-end-column="139" />
-          <folding>
-            <marker date="1505999636000" expanded="true" signature="229:301" ph="SELECT AVG(a... air" />
-            <marker date="1505999636000" expanded="true" signature="780:815" ph="SELECT ar_ma... air" />
-            <marker date="1505999636000" expanded="true" signature="780:860" ph="SELECT ar_ma... air" />
-            <marker date="1505999636000" expanded="true" signature="780:975" ph="SELECT ar_ma... air" />
-            <marker date="1505999636000" expanded="true" signature="780:976" ph="SELECT ar_ma... air" />
-            <marker date="1505999636000" expanded="true" signature="1452:1713" ph="SELECT acct_... head" />
-          </folding>
         </state>
       </provider>
     </entry>
