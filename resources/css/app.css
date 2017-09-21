@@ -1,0 +1,37 @@
+body {
+    padding-top: 50px;
+    padding: 0;
+    margin: 0;
+}
+.starter-template {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.content-container {
+    width: 85vw;
+    margin-left: -70px;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-left {
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.content-left h3 {
+    color: #95989A;
+}
+.content-right {
+    width: 60%;
+    height: 100%;
+    //border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
